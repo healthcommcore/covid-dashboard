@@ -44,7 +44,7 @@
 					Maecenas auctor nulla nisl, sed ornare quam imperdiet nec. Vivamus quam massa, consectetur eget laoreet ultrices, blandit sit amet est. Fusce id iaculis est. Nullam venenatis euismod velit in consequat. Phasellus accumsan, sem dapibus condimentum pulvinar, lacus urna ultricies eros, ac ultricies Leo eros quis metus.
 				</p>
         <div class="row">
-          <div class="col col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
                 FAQs
@@ -57,7 +57,7 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
                 Important links
@@ -70,7 +70,7 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
                 Visualizations
@@ -83,7 +83,7 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
                 What you can do
@@ -96,7 +96,7 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
                 Top 10 myths
@@ -109,8 +109,8 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col col-sm-12 col-md-6 col-lg-4">
-            <div class="card rounded-0 mb-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
                 Misinformation
               </div>
