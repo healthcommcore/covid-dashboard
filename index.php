@@ -45,6 +45,7 @@
 					<p>Over the next few weeks we will expand, modify and update this information. Please visit as often as you can and let us know how this site can be more helpful.</p> 
 				</div>
         <div class="row">
+<!-- FAQs -->
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
@@ -56,8 +57,37 @@
                 </div>
                 <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to FAQs</a>
               </div>
+            </div>
+          </div>
+<!-- Myths -->
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card card-resource rounded-0 mb-4">
+              <div class="card-header header-resource">
+                Myths vs Facts
+              </div>
+              <div class="card-body body-resource">
+                <div class="card-text">
+                  <p>Myths vs fact content</p>
+                </div>
+                <a href="/10-myths" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to Myths</a>
+              </div>
             </div><!-- card -->
           </div><!-- col -->
+<!-- What you can do -->
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card card-resource rounded-0 mb-4">
+              <div class="card-header header-resource">
+                What you can do
+              </div>
+              <div class="card-body body-resource">
+                <div class="card-text">
+                  <p>What you can do content</p>
+                </div>
+                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">See what you can do</a>
+              </div>
+            </div>
+          </div>
+<!-- Important links -->
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
@@ -71,6 +101,21 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
+<!-- Social media tips -->
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card card-resource rounded-0 mb-4">
+              <div class="card-header header-resource">
+								Social media tips
+              </div>
+              <div class="card-body body-resource">
+                <div class="card-text">
+                  <p>Social media tips content</p>
+                </div>
+                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to Social media tips</a>
+              </div>
+            </div>
+          </div>
+<!-- Visualizations -->
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
@@ -81,45 +126,6 @@
                   <p>Visualizations content</p>
                 </div>
                 <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to Visualizations</a>
-              </div>
-            </div><!-- card -->
-          </div><!-- col -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card card-resource rounded-0 mb-4">
-              <div class="card-header header-resource">
-                What you can do
-              </div>
-              <div class="card-body body-resource">
-                <div class="card-text">
-                  <p>What you can do content</p>
-                </div>
-                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">See what you can do</a>
-              </div>
-            </div><!-- card -->
-          </div><!-- col -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card card-resource rounded-0 mb-4">
-              <div class="card-header header-resource">
-                Top 10 myths
-              </div>
-              <div class="card-body body-resource">
-                <div class="card-text">
-                  <p>Top 10 myths content</p>
-                </div>
-                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to Top 10 myths</a>
-              </div>
-            </div><!-- card -->
-          </div><!-- col -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card card-resource rounded-0 mb-4">
-              <div class="card-header header-resource">
-                Misinformation
-              </div>
-              <div class="card-body body-resource">
-                <div class="card-text">
-                  <p>Misinformation content</p>
-                </div>
-                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to Misinformation</a>
               </div>
             </div><!-- card -->
           </div><!-- col -->
