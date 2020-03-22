@@ -1,5 +1,7 @@
 <?php
-  $url = $_SERVER['REQUEST_URI'];
+  $url = $_GET['current_site'];
+  $path = $GET['current_path'];
+  //echo $url . ", " . $path;
 ?>
 <!doctype html>
 <html lang="en-US">
@@ -20,6 +22,7 @@
       .intro-paragraph {
         color: #A85B00;
         font-size: 1.2rem;
+        line-height: 1.57em;
       }
       .card-resource {
         border-color: #BAEAFC;
@@ -40,7 +43,7 @@
     <div class="dashboard-container">
       <h1 class="dashboard-header py-2">COVID-19 Dashboard</h1>
       <div class="container">
-        <div class="intro-paragraph p-3">
+        <div class="intro-paragraph p-3 my-3">
        		<p>Welcome to the site. The rapid spread of COVID-19 virus across the globe is affecting millions of people and is at the same time resulting in the spread of information, misinformation (false information spread without malicious intent) and disinformation (false information spread with the intent to deceive). Our intention is not to create additional information but to bring together credible COVID-19 related information that is easy to access, understand and act upon. Here, we try and address how to navigate the large amounts of information and will update this page as more evidence becomes available. Our target audiences are people we have been working with: journalists, non-governmental organizations and members of the communities we are engaging in. Others too may find this useful.</p>
 					<p>Over the next few weeks we will expand, modify and update this information. Please visit as often as you can and let us know how this site can be more helpful.</p> 
 				</div>
@@ -49,7 +52,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
-                FAQs
+                Frequently asked questions
               </div>
               <div class="card-body body-resource">
                 <div class="card-text">
@@ -63,7 +66,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
-                Myths vs Facts
+                Myths vs facts
               </div>
               <div class="card-body body-resource">
                 <div class="card-text">
