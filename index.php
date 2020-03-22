@@ -1,4 +1,5 @@
 <?php
+/*
 	$url = "";
 	$path = "";
 	if (isset($_GET['current_site'])) {
@@ -8,6 +9,7 @@
 		$path = $GET['current_path'];
 	}
 	$absolute = $url . $path;
+*/
 	$tiles = [
 		array(
 			"title" => "Frequently Asked Questions",
