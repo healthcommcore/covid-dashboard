@@ -13,31 +13,31 @@
 			"title" => "Frequently Asked Questions",
 			"text" => "Frequently Asked Questions about COVID-19",
 			"link_text" => "Go to FAQs",
-			"endpoint" => "faqs-about-covid-19"
+			"endpoint" => "/faqs-about-covid-19"
 		),
 		array(
 			"title" => "Myths vs Facts",
 			"text" => "False information about COVID-19 with facts debunking these myths",
 			"link_text" => "Go to Myths vs Facts",
-			"endpoint" => "myths-vs-facts"
+			"endpoint" => "/myths-vs-facts"
 		),
 		array(
 			"title" => "Social Media Tips",
 			"text" => "How to use social media responsibly during COVID-19",
 			"link_text" => "Go to Social Media Tips",
-			"endpoint" => "social-media-tips"
+			"endpoint" => "/social-media-tips"
 		),
 		array(
 			"title" => "Resources",
 			"text" => "Reliable sources for information on COVID-19",
 			"link_text" => "Go to Resources",
-			"endpoint" => "resources-covid19"
+			"endpoint" => "/resources-covid19"
 		),
 		array(
 			"title" => "Data Spotlight",
 			"text" => "Latest numbers on COVID-19 cases around the world",
 			"link_text" => "Go to Data Spotlight",
-			"endpoint" => "data-spotlight"
+			"endpoint" => "/data-spotlight"
 		)
 	];
 ?>
@@ -88,7 +88,7 @@
         <div class="row">
 <!-- Tiles loop -->
 				<?php foreach($tiles as $tile) : ?>
-					<?php $full_url = $absolute . $tile['endpoint']; ?>
+					<?php $full_url = "http://" . $absolute . $tile['endpoint']; ?>
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
@@ -98,7 +98,7 @@
                 <div class="card-text">
                   <p><?php echo $tile['text']; ?></p>
                 </div>
-                <a href="<?php echo $full_url; ?>" class="btn btn-lg btn-resource btn-block mt-4 rounded-0"><?php echo $tile['link_text']; ?></a>
+                <a target="_parent" href="<?php echo $full_url; ?>" class="btn btn-lg btn-resource btn-block mt-4 rounded-0"><?php echo $tile['link_text']; ?></a>
               </div>
             </div>
           </div>
