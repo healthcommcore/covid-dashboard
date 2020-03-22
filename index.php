@@ -1,7 +1,45 @@
 <?php
-  $url = $_GET['current_site'];
-  $path = $GET['current_path'];
-  //echo $url . ", " . $path;
+	$url = "";
+	$path = "";
+	if (isset($_GET['current_site'])) {
+		$url = $_GET['current_site'];
+	}
+	if (isset($_GET['current_site'])) {
+		$path = $GET['current_path'];
+	}
+	$absolute = $url . $path;
+	$tiles = [
+		array(
+			"title" => "Frequently Asked Questions",
+			"text" => "Frequently Asked Questions about COVID-19",
+			"link_text" => "Go to FAQs",
+			"endpoint" => "faqs-about-covid-19"
+		),
+		array(
+			"title" => "Myths vs Facts",
+			"text" => "False information about COVID-19 with facts debunking these myths",
+			"link_text" => "Go to Myths vs Facts",
+			"endpoint" => "myths-vs-facts"
+		),
+		array(
+			"title" => "Social Media Tips",
+			"text" => "How to use social media responsibly during COVID-19",
+			"link_text" => "Go to Social Media Tips",
+			"endpoint" => "social-media-tips"
+		),
+		array(
+			"title" => "Resources",
+			"text" => "Reliable sources for information on COVID-19",
+			"link_text" => "Go to Resources",
+			"endpoint" => "resources-covid19"
+		),
+		array(
+			"title" => "Data Spotlight",
+			"text" => "Latest numbers on COVID-19 cases around the world",
+			"link_text" => "Go to Data Spotlight",
+			"endpoint" => "data-spotlight"
+		)
+	];
 ?>
 <!doctype html>
 <html lang="en-US">
@@ -48,90 +86,24 @@
 					<p>Over the next few weeks we will expand, modify and update this information. Please visit as often as you can and let us know how this site can be more helpful.</p> 
 				</div>
         <div class="row">
-<!-- FAQs -->
+<!-- Tiles loop -->
+				<?php foreach($tiles as $tile) : ?>
+					<?php $full_url = $absolute . $tile['endpoint']; ?>
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card card-resource rounded-0 mb-4">
               <div class="card-header header-resource">
-                Frequently asked questions
+								<?php echo $tile['title']; ?>
               </div>
               <div class="card-body body-resource">
                 <div class="card-text">
-                  <p>FAQs content</p>
+                  <p><?php echo $tile['text']; ?></p>
                 </div>
-                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to FAQs</a>
+                <a href="<?php echo $full_url; ?>" class="btn btn-lg btn-resource btn-block mt-4 rounded-0"><?php echo $tile['link_text']; ?></a>
               </div>
             </div>
           </div>
-<!-- Myths -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card card-resource rounded-0 mb-4">
-              <div class="card-header header-resource">
-                Myths vs facts
-              </div>
-              <div class="card-body body-resource">
-                <div class="card-text">
-                  <p>Myths vs fact content</p>
-                </div>
-                <a href="/10-myths" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to Myths</a>
-              </div>
-            </div><!-- card -->
-          </div><!-- col -->
-<!-- What you can do -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card card-resource rounded-0 mb-4">
-              <div class="card-header header-resource">
-                What you can do
-              </div>
-              <div class="card-body body-resource">
-                <div class="card-text">
-                  <p>What you can do content</p>
-                </div>
-                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">See what you can do</a>
-              </div>
-            </div>
-          </div>
-<!-- Important links -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card card-resource rounded-0 mb-4">
-              <div class="card-header header-resource">
-                Important links
-              </div>
-              <div class="card-body body-resource">
-                <div class="card-text">
-                  <p>Important links content</p>
-                </div>
-                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to Important links</a>
-              </div>
-            </div><!-- card -->
-          </div><!-- col -->
-<!-- Social media tips -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card card-resource rounded-0 mb-4">
-              <div class="card-header header-resource">
-								Social media tips
-              </div>
-              <div class="card-body body-resource">
-                <div class="card-text">
-                  <p>Social media tips content</p>
-                </div>
-                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to Social media tips</a>
-              </div>
-            </div>
-          </div>
-<!-- Visualizations -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card card-resource rounded-0 mb-4">
-              <div class="card-header header-resource">
-                Visualizations
-              </div>
-              <div class="card-body body-resource">
-                <div class="card-text">
-                  <p>Visualizations content</p>
-                </div>
-                <a href="#" class="btn btn-lg btn-resource btn-block mt-4 rounded-0">Go to Visualizations</a>
-              </div>
-            </div><!-- card -->
-          </div><!-- col -->
+			<?php endforeach; ?>
+<!-- End loop -->
         </div>
       </div>
     </div>
