@@ -13,7 +13,7 @@
 	$tiles = [
 		array(
 			"title" => "Vaccines",
-			"text" => "Information about COVID-19 vaccines",
+			"text" => "Frequently Asked Questions and Resources about Vaccines",
 			"link_text" => "Go to Vaccines",
 			"endpoint" => "/vaccines"
 		),
