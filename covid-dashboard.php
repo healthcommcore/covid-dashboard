@@ -12,15 +12,21 @@
 */
 	$tiles = [
 		array(
+			"title" => "Vaccines",
+			"text" => "Information about COVID-19 vaccines",
+			"link_text" => "Go to Vaccines",
+			"endpoint" => "/vaccines"
+		),
+		array(
 			"title" => "Frequently Asked Questions",
 			"text" => "Frequently Asked Questions about COVID-19",
 			"link_text" => "Go to FAQs",
 			"endpoint" => "/faqs-about-covid-19"
 		),
 		array(
-			"title" => "Myths vs Facts",
+			"title" => "Mythbusters",
 			"text" => "False information about COVID-19 with facts debunking these myths",
-			"link_text" => "Go to Myths vs Facts",
+			"link_text" => "Go to Mythbusters",
 			"endpoint" => "/myths-vs-facts"
 		),
 		array(
