@@ -41,6 +41,18 @@
 			"link_text" => "Go to Data Spotlight",
 			"endpoint" => "data-spotlight"
 		)
+		array(
+			"title" => "आंकड़ों पर नजर",
+			"text" => "दुनिया भर में कोविड-19 मामलों पर नवीनतम संख्या",
+			"link_text" => "Go to Data Spotlight",
+			"endpoint" => "data-spotlight"
+		),
+		array(
+			"title" => "आंकड़ों पर नजर",
+			"text" => "दुनिया भर में कोविड-19 मामलों पर नवीनतम संख्या",
+			"link_text" => "Go to Data Spotlight",
+			"endpoint" => "data-spotlight"
+		)
 	];
 ?>
 <!doctype html>
