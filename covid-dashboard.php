@@ -30,10 +30,10 @@
 			"endpoint" => "/myths-vs-facts"
 		),
 		array(
-			"title" => "Social Media Tips",
-			"text" => "How to use social media responsibly during COVID-19",
-			"link_text" => "Go to Social Media Tips",
-			"endpoint" => "/social-media-tips"
+			"title" => "Webinars and Video Releases",
+			"text" => "Discussion with experts on COVID-19 management and vaccines",
+			"link_text" => "Go to Webinars and Video Releases",
+			"endpoint" => "/webinars"
 		),
 		array(
 			"title" => "Data Spotlight",
@@ -46,6 +46,12 @@
 			"text" => "Tips to manage stress and promote mental, physical, and social well-being",
 			"link_text" => "Go to Health & Well-being",
 			"endpoint" => "/health-and-well-being"
+		),
+		array(
+			"title" => "Social Media Tips",
+			"text" => "How to use social media responsibly during COVID-19",
+			"link_text" => "Go to Social Media Tips",
+			"endpoint" => "/social-media-tips"
 		),
 		array(
 			"title" => "Tobacco Control",
