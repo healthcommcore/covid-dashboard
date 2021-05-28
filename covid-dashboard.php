@@ -60,9 +60,9 @@
 			"endpoint" => "/tobacco-tips"
 		),
 		array(
-			"title" => "Resources",
-			"text" => "Reliable sources for information on COVID-19",
-			"link_text" => "Go to Resources",
+			"title" => "Infographics and Resources",
+			"text" => "Infographics developed to communicate reliable information on COVID-19",
+			"link_text" => "Go to Infographics and Resources",
 			"endpoint" => "/resources-covid19"
 		)
 	];
@@ -100,7 +100,7 @@
   <div class="container">
     <div class="intro-paragraph p-3 my-3">
       <p>Welcome to the site. The rapid spread of COVID-19 virus across the globe is affecting millions of people and is at the same time resulting in the spread of information, misinformation (false information spread without malicious intent) and disinformation (false information spread with the intent to deceive). Our intention is not to create additional information but to bring together credible COVID-19 related information that is easy to access, understand and act upon. Here, we try and address how to navigate the large amounts of information and will update this page as more evidence becomes available. Our target audiences are people we have been working with: journalists, non-governmental organizations and members of the communities we are engaging in. Others too may find this useful.</p>
-      <p>Over the next few weeks we will expand, modify and update this information. Please visit as often as you can and let us know how this site can be more helpful.</p> 
+      <p>We will regularly expand, modify and update this information. Please visit as often as you can and let us know how this site can be more helpful.</p> 
     </div>
     <div class="row">
 <!-- Tiles loop -->
